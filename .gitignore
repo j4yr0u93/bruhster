@@ -1,2 +1,3 @@
-SECRET.toml
+*.toml
+*.env
 testing.py

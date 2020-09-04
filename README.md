@@ -7,6 +7,7 @@ current reqs:
 - sanic
 - asyncpg
 - qtoml
+- decouple
 - discord
 - twitch
 - spotipy
