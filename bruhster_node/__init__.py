@@ -12,3 +12,5 @@ TWITCH_API_SECRET = config('TWITSEC')
 #discord API env vars
 DISCORD_API_ID = config('DISCID')
 DISCORD_API_SECRET = config('DISCSEC')
+
+#need to define way to access db and then use some sort of token or id to load node config in node_worker.py
