@@ -1,0 +1,8 @@
+#postgres db config stored here
+title = "bruhster_server db config"
+[settings]
+username = ""
+password = ""
+host = ""
+port = ""
+database = ""

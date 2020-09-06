@@ -7,7 +7,6 @@ current reqs:
 - sanic
 - asyncpg
 - qtoml
-- decouple
 - discord
 - twitch
 - spotipy
@@ -15,3 +14,5 @@ current reqs:
 - pynat
 - aiohttp
 - pynacl
+- gino
+- SQLAlchemy

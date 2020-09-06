@@ -1,4 +1,4 @@
-from bruhster.node_worker import main
+from bruhster.client import main
 
 
 if __name__ == '__main__':

@@ -1,0 +1,5 @@
+#aiohttp config information for webserver
+title = "bruhster_server web config"
+[settings]
+host = ""
+port = ""

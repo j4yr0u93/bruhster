@@ -1,0 +1,11 @@
+#backend key and config stored here
+title = "bruhster backend config"
+[spotify]
+SPOTIPY_CLIENT_ID = ""
+SPOTIPY_CLIENT_SECRET = ""
+SPOTIPY_REDIRECT_URI = ""
+[postgres music db]
+user="user"
+password="password"
+database="database"
+host="host"

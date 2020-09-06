@@ -1,49 +1,33 @@
-#vanilla liberals
+#kinky liberals
+import asyncio
+import asyncpg
+import aiohttp
 import datetime
 import time
 import sys
 import subprocess
-
-#kinky liberals
-import asyncio
-import pynat
-import pynacl
-import aiohttp
-import pillow
-import sanic
-
-#audiophile liberals
 import spotipy
+from spotipy.oauth2 import SpotifyClientCredentials
 
-#content liberals
-import twitch
+#im fast as fug boi but not on windows
+#asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
 
-#gaymer liberals
-import discord
-from discord.utils import oauth_url
+#set client token
+spotify_client = spotipy.Spotify(auth_manager=SpotifyClientCredentials())
 
-from sanic import Sanic
-from sanic.response import json
-
-app = Sanic("App Name")
-
-@app.route("/")
-async def test(request):
-    return json({"hello": "world"})
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8000)
-
-#im fast as fug boi
-asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
+#asyncpg connection to postgres server
+#async def musicdb_connect():
+#    conn = await asyncpg.connect(user='user', password='password',
+#                                 database='database', host='127.0.0.1')
+#    values = await conn.fetch('''SELECT * FROM mytable''')
+#    await conn.close()
+#
+#loop = asyncio.get_event_loop()
+#loop.run_until_complete(run())
 
 
 #main
 def main():
-
-#user joins sync and seeks to current position in track and gains queue
-class streamer:
-    def __init(streamer_token):
-
-class viewer:
-    def __init__(viewer_token):
+    print(spotify_client.search(q='apartment young the giant', limit=1, type='track'))
+    time.sleep(5)
+    return
