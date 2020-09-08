@@ -1,4 +1,4 @@
-from views import index
+from aiohttp_bruhster.views import index
 
 
 def setup_routes(app):
