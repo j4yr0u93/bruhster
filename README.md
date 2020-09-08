@@ -4,7 +4,6 @@
 current reqs:
 - asyncio
 - uvloop
-- sanic
 - asyncpg
 - qtoml
 - discord
