@@ -12,6 +12,7 @@ current reqs:
 - pillow
 - pynat
 - aiohttp
+- aiohttp session
 - pynacl
 - gino
 - SQLAlchemy
