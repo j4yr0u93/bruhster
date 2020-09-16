@@ -8,7 +8,7 @@ import sys
 import subprocess
 from aiohttp import web
 from aiohttp_bruhster.routes import setup_routes
-from aiohttp_bruhster import web_config, DB_CONFIG_URL
+from aiohttp_bruhster import web_config
 #from aiohttp_session import setup, get_session, session_middleware
 #from aiohttp_session.cookie_storage import EncryptedCookieStorage
 
