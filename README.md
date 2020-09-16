@@ -9,10 +9,8 @@ current reqs:
 - discord
 - twitch
 - spotipy
-- pillow
-- pynat
 - aiohttp
+- aiohttp_jinja2
 - aiohttp session
-- pynacl
 - gino
 - SQLAlchemy

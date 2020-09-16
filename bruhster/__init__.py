@@ -3,7 +3,7 @@ import os.path
 import qtoml as toml
 
 #open config with right path
-CONFIG_PATH = os.path.join('bruhster', 'spotify_config.toml')
+CONFIG_PATH = os.path.join('bruhster', 'config', 'spotify_config.toml')
 
 
 def load_config(path):

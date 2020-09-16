@@ -2,7 +2,6 @@
 title = "bruhster_server oauth config"
 [settings]
 SPOTIFY_ID = ""
-SPOTIFY_SECRET = ""
 REDIRECT_URI = ""
 OAUTH_STATE = ""
 SHOW_DIALOG = ""
