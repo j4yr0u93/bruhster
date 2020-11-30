@@ -33,6 +33,7 @@ def make_app():
     secret_key = base64.urlsafe_b64decode(fernet_key)
     setup(app, EncryptedCookieStorage(secret_key))
     setup_routes(app)
+    app.router.add_get('/', handler)
     return app
 
 web.run_app(make_app(), host=web_config['WEB_HOST'], port=web_config['WEB_PORT'])
